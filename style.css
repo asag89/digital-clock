@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #161929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px 30px;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 0px 0px 15px 0px #fff;
+    box-shadow: 0px 0px 15px 0px #fff;
+}
+
+.wrapper div {
+    color: #fff;
+    font-size: 3.6rem;
+}
